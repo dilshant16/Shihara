@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- head start -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <!-- title -->
+    <title>Letter for you!</title>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+Wy0WkS65E5/D5I8O4p5ES8+uFjgA2xG6Dh" crossorigin="anonymous">
+<!-- Font Awesome CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-GLhlTQ8iUNnJTZl/3hiWadaQIuR38ZNRSRET4aeAFi+yoqqC9R0D5I1eRvAq2MO" crossorigin="anonymous">
+  
+  <!-- Css styles  -->
+  <!-- can access these CSS from the separate CSS file/// add all this to it before link it -->
+  
+  <style>
+
+    * {
+    box-sizing: border-box;
+  }
+  
+  body {
+     font-family: 'Varela Round', 'Quicksand', sans-serif;
+    background-color: #800020;
+  }
+  /* this is the area which contains all the details */
+  .postcard {
+    width: 800px;
+    height: 500px;
+    background-color: #f7f7f7;
+    margin: 0 auto;
+    border-radius: 2%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3em;
+    box-shadow: .8em .8em 15px rgba(0,0,0,.3);
+     -ms-transform: rotate(2.5deg); /* IE 9 */
+      -webkit-transform: rotate(2.5deg); /* Chrome, Safari, Opera */
+      transform: rotate(2.5deg);
+    -moz-transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 5em;
+    color: #f7f7f7;
+    margin-bottom: -15px;
+  }
+  
+  p {
+    display: inline;
+    font-size: 1.3em;
+  }
+  
+  /* postcard animation*/
+  .postcard:hover,
+  .postcard:active,
+  .postcard:focus{
+    -ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    -moz-transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+  
+  
+  }
+  
+  /*form*/
+  input,
+  textarea {
+    border: none;
+    border-radius: 4%;
+    height: 1.9em;
+    padding: .7em;
+    font-size: 1.3em;
+    font-family: 'Varela Round', 'Quicksand', sans-serif;
+  }
+  
+  input:focus,
+  textarea:focus {
+     outline-color: pink;
+  }
+  
+  .mail_stamp {
+    width: 100px;
+    float: right;
+  }
+  
+  #address {
+    text-decoration: underline;
+  }
+  
+  textarea {
+    overflow: auto;
+    resize: none;
+    height: 10em;
+    width: 17em;
+    margin-top: .5em;
+    margin-bottom: 1em;
+  }
+  
+  .push{
+    margin-bottom: 1em;
+    margin-top: .5em;
+  }
+  
+  #recipient_email{
+    margin-top: 4.5em;
+    margin-bottom: 1.5em;
+  }
+  
+  /*footer*/
+  footer {
+    margin: 2em auto;
+    text-align: center;
+    font-family: 'Varela Round', 'Quicksand', sans-serif;
+    color: white;
+  }
+  
+  footer p {
+    font-size: 1em;
+    letter-spacing: 1px;
+  }
+ /* button for locate next page */
+
+.custom-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #4CAF50;
+    color: #fff;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+/* hover effect for the button */
+.custom-button:hover {
+    background-color: #45a049;
+}
+
+
+
+  
+  </style>
+</head>
+
+<!-- head end -->
+
+<!-- body start -->
+<body>
+  <!-- main content start -->
+  <div class="wrap">
+    <!-- heading -->
+    <h1>Letter For You!</h1>
+    <br>
+    <br>
+    <br>
+  <!-- used br inteade of padding -->
+  <!-- postcard start -->
+    <div class="postcard">
+      <!-- letter start -->
+      <div class="letter">
+        <!-- form start -->
+        <form action="#" method="post" class="message_form">
+          <!-- greeting -->
+          <p class="push">Dear Shihara </p>
+          <p> ,</p><br>
+          
+          <label for="message"></label><br>
+          <!-- textarea -->
+          <textarea id="message" name="message_to_recipient" placeholder="" readonly>
+            
+            I hope this letter brings a smile to your face as you read it. Something about you has captured my heart and inspired me to express feelings that have been growing within me.
+
+            First, I hope this finds you in good health and high spirits. After our recent conversations, I felt an overwhelming need to put my thoughts into words. My handwriting isn’t the best, so I decided to share this with you in a way that would be clearer and easier to read. Even so, I find myself unsure where to begin or how to end, but I know I must tell you what’s on my mind.
+
+            After speaking with you, I found myself lost in thought, unable to sleep as my mind replayed our interactions. Every word I write here comes from the depths of my heart.
+
+            When I first helped you, it was purely out of kindness and a desire to assist someone eager to learn. My intentions were simple and sincere, without any expectations in return. For a long time, I avoided entertaining thoughts of anyone in a romantic sense, not just you. Even when my mother mentioned you, I didn’t dwell on it. I was content being alone.
+
+            But something shifted after we spoke about this proposal issue. It felt important to share my thoughts with you, and so I decided to write this letter a different way of expressing myself, just as you deserve something special.
+            
+            You are not someone who should suffer. You deserve to find love that is pure, a life filled with joy and purpose. Don’t let the wrong choices of your past define the happiness of your future. Think about it if someone who hurt you deeply can do so in just a few years, imagine what they could do in the decades to come. You have a long and beautiful life ahead of you, perhaps another 50 years or more.
+
+            If you find yourself tied to someone who wasn’t there for you, what happens if they betray your trust again? Imagine a future where you have children, yet you feel trapped, playing along with a facade of happiness for their sake, even when your heart isn’t in it. Life is too precious to allow yourself to be tethered to pain.
+
+            I know it’s difficult to forget a first love everyone carries that mark but holding onto it and sacrificing the best years of your life for the sake of the past can only lead to regret. Don’t waste the potential of what could be a life filled with love and meaning.
+
+            I’ve always valued love deeply. I’ve experienced relationships before, and while I won’t hide this truth, I’ve never encountered someone who reciprocated love in the way I give it. Past relationships didn’t feel like true love; they came at the wrong times in my life. Honesty has always been my compass, and when faced with feelings that didn’t align with my circumstances, I never indulged them.
+
+            What I’ve always sought is someone who could love me as deeply and wholeheartedly as I do. After talking to you, I sensed, for the first time, that you might be that person. You possess a loving and thoughtful nature that is rare, especially for someone your age. You have dreams and aspirations, and you deserve a life filled with joy and fulfillment.
+
+            Life is too precious to let past hurts or wrong choices dictate your future. Pain from the past may linger, but it doesn’t have to define the decades ahead. Your happiness matters—not just for yourself but for those who may one day share your journey, including your future family.
+
+            I’ve learned that love is not about erasing the past but about creating a future worth cherishing. If you are open to it, I would love the chance to learn more about you—your dreams, your perspectives, and the experiences that have shaped the remarkable person you are.
+            
+            There’s something profound in the connection I feel with you, and I hope we can explore it together. Whatever path we may take, I am deeply grateful for the opportunity to know you better and share this moment in time.
+
+            After careful thought and reflection, I came to a decision. Until now, I didn’t have feelings for anyone, nor did I have faith in love. But because of you, that has changed. You’ve restored my belief in love. If I were to find someone as valuable as you and let them go, I would be making a grave mistake. That’s why I felt the need to express this to you.
+
+            You don’t have to forget your first love no one truly can. Instead, carry it with you as a memory while moving forward. Embrace your life, and think about finding someone who will dedicate themselves to you completely. Consider not only your own happiness but also the future you want for yourself and your children. With the right decision, your life can flourish. The wrong choice, however, can lead to unnecessary struggles.
+
+            We are two people who have loved deeply and been hurt profoundly. The only cure for love is love itself.
+
+            If you can love me with that same depth and sincerity, I promise there will be no hesitation on my part. I will love you wholeheartedly, ensuring not a single word or action is lacking. I will do everything I can to support you, to help you learn and grow, and to share in the journey of life with you. Let’s take the time to think this through and decide together.
+
+            A new year is approaching. Let’s take this opportunity to leave the past behind and embrace the possibilities of 2025 a fresh start, a new beginning, and a chance to build something beautiful together.
+
+            Thank you for taking the time to read my thoughts. I look forward to hearing from you and learning more about the person who has left such a beautiful impression on my heart.
+            
+           
+            
+
+            </textarea>
+            <!-- textarea end -->
+            <br>
+            <br>
+            <br><br>
+            <!-- add my name and put number into a placeholder -->
+          <div class="div" style="padding-left: 80px;">
+            <p> With sincerity and admiration,<br>
+              Dilshan Tharaka </p><br>
+          <!-- <input type="text" id="sender_name" name="sender" placeholder="0778032290" readonly> -->
+          </div>
+        </form>
+        <!-- form end -->
+      </div>
+      <!-- letter end -->
+
+      <div>
+
+ <!-- image is importing from the github repository which i uploaded as Letter-For-Her -->
+    <img src="WhatsApp Image 2024-12-30 at 02.45.13.png" alt="Your Image Alt Text" width="350px" height="350px">   
+        
+      </div>
+
+    </div>
+  <!-- postcard end  -->
+    <!-- <div> -->
+      <!-- <a href="new.html"><button type="button" class="custom-button">Check Next</button></a> -->
+      <!-- try to load the page from the github  -->
+      <!-- <a href="https://raw.githubusercontent.com/dilshant16/Letter-For-Her/main/new.html"><button type="button" class="custom-button">Check Next</button></a> -->
+      
+    </div>
+
+  </div>
+  <!-- main content end -->
+
+</body>
+<!-- body end -->
+</html>
